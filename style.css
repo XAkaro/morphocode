@@ -42,7 +42,7 @@ h1 {
 }
 
 p {
-    font-family: Titillium W;
+    font-family: Titillium Web;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -50,5 +50,5 @@ p {
 }
 
 #academy img {
-    
+    margin-right: 120px;
 }
