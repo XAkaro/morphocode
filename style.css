@@ -5,6 +5,17 @@
     text-decoration: none;
     list-style: none;
     color: rgba(102, 102, 102, 0.85);
+    font-family: tit;
+}
+
+@font-face {
+    font-family: 'sai';
+    src: url(./fonts/sailec-bold.ttf);
+}
+
+@font-face {
+    font-family: 'tit';
+    src: url(./fonts/TitilliumWeb-Regular.ttf);
 }
 
 header {
@@ -12,6 +23,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'sai';
+}
+
+header a {
+    font-family: 'sai';
 }
 
 nav ul {
@@ -20,20 +36,21 @@ nav ul {
     gap: 22px;
 }
 
-#academy {
+section {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .data {
+    width: 545px;
     margin-left: 175px;
     padding: 76.7px 8px 93.69px 15px;
 }
 
 h1 {
     margin-bottom: 20px;
-    font-family: Sailec-Bold;
+    font-family: Sai;
     font-weight: 400;
     font-size: 48px;
     line-height: 58.08px;
@@ -42,7 +59,7 @@ h1 {
 }
 
 p {
-    font-family: Titillium Web;
+    font-family: 'tit';
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -51,4 +68,92 @@ p {
 
 #academy img {
     margin-right: 120px;
+} 
+
+#about {
+    margin-top: 30px;
+}
+
+#about img {
+    margin-left: 120px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-family: 'sai';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.56px;
+    letter-spacing: 0.25px;
+    color: #4A4A4A;
+}
+
+#about p {
+    margin-top: 15px;
+    margin-bottom: 21px;
+}
+
+.blue {
+    color: #1d6ff3;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0.25px;
+    text-align: center;
+}
+
+.data2 {
+    width: 458px;
+    margin-right: 247px;
+}
+
+.data2 h2 {
+    width: 437px;
+}
+
+.data3 {
+    width: 500px;
+    margin-right: 45px;
+    margin-left: 190px;
+}
+
+.data3 p {
+    margin-top: 20px;
+    margin-bottom: 52px;
+}
+
+#work img {
+    margin-right: 120px;
+}
+
+#blog {
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.text {
+    width: 280px;
+    height: 245px;
+    padding: 20px 20px 15px 20px;
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+h3 {
+    font-family: 'sai';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.2px;
+    letter-spacing: 0.25px;
+    color: #4A4A4A;
+}
+
+.text p {
+    font-size: 16px;
+    line-height: 25.6px;
 }
